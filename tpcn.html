@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thực Phẩm Chức Năng</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="nav-bar tpcn-header">
+      <header>
+        <a href="index.html"
+          ><img src="./img-logo/header-logo.png" alt="" class="logo"
+        /></a>
+        <div class="nav-links">
+          <ul id="menuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lam-dep.html">Dưỡng Da</a></li>
+            <li><a href="tpcn.html">TPCN</a></li>
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+        <img src="./img-logo/menu-logo.png" class="menu-toggle" alt="" />
+      </header>
+    </section>
+    <main class="transitionAll">
+      <div class="slide-img">
+        <figure>
+            <img src="/img-slide-header/slide-img--0.jpg" alt="">
+            <img src="/img-slide-header/slide-img--1.jpg" alt="">
+            <img src="/img-slide-header/slide-img--2.jpg" alt="">
+            <img src="/img-slide-header/slide-img--3.jpg" alt="">
+            <img src="/img-slide-header/slide-img--0.jpg" alt="">
+        </figure>
+    </div>
+
+    <div id="pop-up">
+      <div id="closed">
+        <i class="fa fa-times"></i>
+      </div>
+      <div id="container" class="info-container">
+        <div class="info-img">
+          <img class="big-img" src="/img-product/product--0.jpg" alt="" />
+          <div class="info-small-img">
+            <img class="sml-img" src="/img-product/product--1.jpg" alt="" />
+            <img class="sml-img" src="/img-product/product--3.jpg" alt="" />
+            <img class="sml-img" src="/img-product/product--4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="info-text">
+          <h1 class="product-name"></h1>
+          <p class="price">200,000 VND</p>
+          <input type="number" value="1" />
+          <button class="btn">Mua Hàng</button>
+          <h3 class="decription">Thông tin sản phẩm</h3>
+          <span class="product_text"></span>
+          <span class="product_text"></span>
+          <span class="product_text"></span>
+          <span class="product_text"></span>
+        </div>
+      </div>
+    </div>
+    <section class="row main product-x">
+      <div class="tpcn-menu main">
+        <p id="label">Tất Cả Sản Phẩm</pi>
+        <form class="row">
+          <label>Danh Mục</label>
+          <select id="sorted">
+            <option value="all">Tất Cả Sản Phẩm</option>
+            <option value="vitamin">Các Loại Vitamin</option>
+            <option value="glucosamine">Glucosamine</option>
+            <option value="omega3">Dầu Cá Omega-3</option>
+          </select>
+        </form>
+      </div>
+      <div id="product-container" class="row product-list"></div>
+    </section>
+
+    <!-- -----Footer Section------- -->
+    <footer>
+      <div id="footer-x" class="row container">
+        <div class="footer-card card-1">
+          <img src="./img-logo/footer-logo.png" alt="" />
+          <div class="social-links">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-phone"></i></a>
+          </div>
+          <h3><i class="fa fa-copyright">2021, Chris Hoàng</i></h3>
+        </div>
+        <div class="footer-card card-2">
+          <h2 class="tittle footer-tittle">Cộng Tác</h2>
+          <p>Chúng tôi luôn luôn tuyển cộng tác viên</p>
+          <p>Với chế độ hoa hồng hấp dẫn</p>
+          <p>Liên hệ cộng tác</p>
+        </div>
+        <div class="footer-card card-3">
+          <h2 class="tittle footer-tittle">About</h2>
+          <a href="">Cam Kết</a>
+          <a href="">Shipping</a>
+          <a href="">Đổi Trả</a>
+          <p>Địa Chỉ: Số: xx , Phường: xxxx, Thành Phố: xxxx</p>
+        </div>
+      </div>
+    </footer>
+    </main>
+    
+    <script src="./JS-files/toogle-menu.js"></script>
+    <script src="./JS-files/product.js"></script>
+    <script src="./JS-files/change-page.js"></script>
+  </body>
+</html>
